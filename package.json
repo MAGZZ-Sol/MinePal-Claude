@@ -1,0 +1,19 @@
+{
+  "name": "minecraft-companion",
+  "version": "1.0.0",
+  "description": "An AI companion that plays Minecraft with you",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "canvas": "^3.2.1",
+    "dotenv": "^16.4.0",
+    "minecraft-data": "^3.103.0",
+    "minecraft-protocol": "^1.63.0",
+    "mineflayer": "^4.34.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "prismarine-viewer": "^1.33.0"
+  }
+}
